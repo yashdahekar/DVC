@@ -1,0 +1,42 @@
+# .gitignore for Python projects
+
+# Virtual environment
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python imaging
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.ppm
+*.pgm
+*.pbm
+*.pnm
+*.tga
+*.xbm
+*.xpm
+__pycache__/
+PIL.pth
+*.pyc
+
+# Project specific files
+*.db
+*.sqlite3
+
+# Ignore local settings
+local_settings.py
+
+# Ignore logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore environment configuration
+.env
